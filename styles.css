@@ -1,16 +1,11 @@
 body {
-  background: -webkit-linear-gradient(
-    180deg,
-    #43d6cc,
-    #36dd7f,
-    #d7d93f
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    180deg,
-    #43d6cc,
-    #36dd7f,
-    #d7d93f
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  background: linear-gradient(#43d6cc, #36dd7f, #d7d93f);
+  margin: 0;
+}
+
+.logo {
+  margin-top: 15px;
 }
 
 h1,
