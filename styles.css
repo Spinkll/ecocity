@@ -18,7 +18,7 @@ ul {
 
 h1,
 h2 {
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .transport {
@@ -43,18 +43,28 @@ h2 {
 
 ul {
   list-style-type: none;
+  text-align: left;
+  margin-left: 10px;
 }
 li {
   margin: 0 auto;
   font-size: 25px;
-  padding-left: 30px;
+  padding-left: 50px;
   background-image: url("./Img/checked_9340619.png");
   background-repeat: no-repeat;
-  background-position: 0px;
   background-size: 35px 35px;
 }
 .container {
   text-align: center;
+}
+
+.list {
+  text-align: center;
+}
+
+.list ul {
+  display: inline-block; /* Делаем список строчно-блочным элементом для центрирования */
+  padding-left: 0; /* Убираем стандартный отступ слева */
 }
 
 table {
@@ -80,4 +90,28 @@ table td {
 
 .name {
   font-size: 24px;
+}
+
+@media screen and (min-width: 769px) {
+  .transport {
+    font-size: 35px;
+  }
+  .export {
+    font-size: 30px;
+  }
+  .processing {
+    font-size: 55px;
+  }
+  li {
+    font-size: 30px;
+  }
+  .contacts {
+    font-size: 50px;
+  }
+  .number {
+    font-size: 45px;
+  }
+  .name {
+    font-size: 45px;
+  }
 }
