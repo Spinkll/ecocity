@@ -6,17 +6,18 @@ body {
 
 .logo {
   margin-top: 10px;
+  width: 150px;
+}
+
+.logo_2 {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 140px;
 }
 
 .contacts a {
   text-decoration: none;
   color: black;
-}
-
-.logo_2 {
-  margin-left: 25px;
-  margin-top: 10px;
-  width: 241px;
 }
 
 h1,
@@ -124,5 +125,12 @@ table td {
   }
   .name {
     font-size: 45px;
+  }
+  .logo {
+    width: 241px;
+  }
+  .logo_2 {
+    margin-left: 25px;
+    width: 241px;
   }
 }
