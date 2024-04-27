@@ -5,7 +5,18 @@ body {
 }
 
 .logo {
-  margin-top: 15px;
+  margin-top: 10px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo_2 {
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 241px;
 }
 
 h1,
